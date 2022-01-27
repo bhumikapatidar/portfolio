@@ -15,7 +15,7 @@ const ProjectDetails: FunctionComponent<{ proj: IProject }> = ({ proj: { name, d
                     <a href={github_url} target="_blank" className='cursor-pointer mt-2'><AiFillGithub className='w-5 h-5' /></a>
                 </div>
                 <div>
-                    <p className="bg-slate-100 text-slate-600 rounded-md px-3 py-1 my-3 lg:text-md">{desc}</p>
+                    <p className="bg-slate-100 text-slate-700 rounded-md px-3 py-1 my-3 lg:text-md">{desc}</p>
                 </div>
                 <div className="flex flex-wrap gap-x-5 gap-y-1 my-1">{
                     key_tech.map(e => (
