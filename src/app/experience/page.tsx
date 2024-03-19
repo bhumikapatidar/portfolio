@@ -1,3 +1,9 @@
-export default function Experience () {
-    return <h1>Experience</h1>
+import React from 'react'
+
+function Experience() {
+  return (
+    <div>Experience</div>
+  )
 }
+
+export default Experience
